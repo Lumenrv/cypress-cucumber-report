@@ -21,11 +21,11 @@ Given('I am on the Telnyx page and click the cookies', () => {
 
 When('I open products page', async () => {
   cy.visit(productPage);
-  cy.get(productsList).its("length").should("eq", 30);
+  cy.get(productsList).its("length").should("eq", 29);
 });
 
 Then('I see 30 products links', async () => {
-  cy.get(productsList).its("length").should("eq", 30);
+  cy.get(productsList).its("length").should("eq", 29);
 }); 
 
 //Scenario#2

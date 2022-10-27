@@ -1,13 +1,4 @@
 Feature: Test of Login page
-     
-
-   Scenario: Test login with an invalid password
-    Given I am on the Telnyx page and click the cookies
-     When I open the Login page
-     Then I enter valid email
-     Then I enter invalid password
-     Then I click "Submit" button on Login page
-     Then I see error message
 
     Scenario: Test login with an invalid email
         When I open the Login page
